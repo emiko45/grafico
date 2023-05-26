@@ -1,0 +1,5 @@
+
+AuthUserFile "/home/xsvx1015249/preview-tca.com/htpasswd/p1/.htpasswd"
+AuthName "Member Site"
+AuthType BASIC
+require valid-user
