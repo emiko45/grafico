@@ -244,7 +244,7 @@ header h1.sub_logo a img {
 }
 .menu-content ul li a.menu_logo {
   display: block;
-  width: 60px;
+  width: 80px;
   margin: 20px auto 0;
 }
 .menu-content ul li a.menu_logo img {
@@ -346,7 +346,7 @@ header h1.sub_logo a img {
     margin-bottom: 40px;
   }
   #about .txt_area h3 {
-    font-size: 32px;
+    font-size: 8vw;
     margin-bottom: 30px;
   }
   #about .img_area img {
@@ -572,6 +572,16 @@ header h1.sub_logo a img {
     display: block;
     width: 150px;
 }
+/*　スマホ指定　*/
+@media screen and (max-width:850px) {
+  #works_box ul.tab_wrap {
+    width:100%;
+  }
+  #works_box ul.tab_wrap li {
+    width: 120px;
+  }
+}
+
 #works_box .tab_wrap .slick-slide {
   transition: all .5s;/*拡大や透過のアニメーションを0.5秒で行う*/
   opacity: 0.4;/*透過50%*/
