@@ -1,0 +1,5 @@
+AuthType Basic
+AuthName "Input ID and Password"
+AuthUserFile /web/sites/nachubi01/pass/.htpasswd
+require valid-user
+
