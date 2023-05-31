@@ -630,8 +630,12 @@ header h1.sub_logo a img {
   animation: fadeIn 1s ease;
 }
 #works_box .grid {
+  display: none;
   clear: both;
   overflow: hidden;
+}
+#works_box .grid.first {
+  display: block;
 }
 #works_box .grid .item {
   position: relative;
